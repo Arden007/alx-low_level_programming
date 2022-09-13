@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * _islower - checks for lowercase character
+ * _iprint_alphabet_x10 - prints the alaphabet x10
  */
 
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-int c = 'a';
-if ( _islower(c) ){
-printf("%c is lowercase", c);
-}else{
-printf("%c is uppercase", c);
+int tens, c;
+for ( tens = 0; tens <= 9 ; tens++){
+for ( c = 'a'; c <= 'z' ; c++)
+{
+putchar(c);
+putchar('\n');
 }
-return (0);
 }
