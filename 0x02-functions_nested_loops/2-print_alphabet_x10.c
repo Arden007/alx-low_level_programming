@@ -5,12 +5,12 @@
 
 void print_alphabet_x10(void)
 {
-    int tens, c;
+int tens, c;
 
-    for (tens = 0; tens <= 9; ++tens)
-    {
-        for (c = 'a'; c <= 'z'; ++c)
-            _putchar(c);
-        _putchar('\n');
-    }
+for (tens = 0; tens <= 9; ++tens)
+{
+for (c = 'a'; c <= 'z'; ++c)
+_putchar(c);
+_putchar('\n');
+}
 }
