@@ -11,5 +11,4 @@ while (c = 0 && c <= 9)
 putchar(c + '0');
 c++;
 putchar("\n");
-return (0);
 }
