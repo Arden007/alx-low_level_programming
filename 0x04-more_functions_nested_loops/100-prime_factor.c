@@ -41,7 +41,7 @@ largest = prmNu;
 }
 }
 if (num > 2)
-        largest = num;
+largest = num;
 printf("%d\n", largest);
 }
 /**
