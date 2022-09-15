@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * print_numbers - prints numbers from 0 - 9
+ * print_numbers - print 0 - 9
+ *             only using _putchar twice
  *
- * Return: 0 for success
+ * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
