@@ -7,8 +7,10 @@
 void print_numbers(void)
 {
 int c;
-for (c = 0 ; c <= 9 ; c++)
+do
+{
 _putchar(c + '0');
-_putchar("\n");
-return (0);
+c++;
+} while (c >= 0 && c <= 9);
+_putchar('\n');
 }
