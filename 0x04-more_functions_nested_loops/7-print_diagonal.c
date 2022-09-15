@@ -8,23 +8,22 @@
 
 void print_diagonal(int n)
 {
-    int postn, space;
-
-    if (n <= 0)
-        _putchar('\n');
-    for (postn = 0; postn < n; postn++)
-    {
-        for (space = 0; space <= postn; space++)
-        {
-            if (postn == space)
-            {
-                _putchar('\\');
-                _putchar('\n');
-            }
-            else
-            {
-                _putchar(' ');
-            }
-        }
-    }
+int postn, space;
+if (n <= 0)
+_putchar('\n');
+for (postn = 0; postn < n; postn++)
+{
+for (space = 0; space <= postn; space++)
+{
+if (postn == space)
+{
+_putchar('\\');
+_putchar('\n');
+}
+else
+{
+_putchar(' ');
+}
+}
+}
 }
