@@ -1,15 +1,14 @@
 /*
- * mul - multiples 2 integer numbers
+ * mul - multiples 2 integer
  *
- * @a: input for integer
- * 
- * @b: input for integer
+ * @a: 1st input
+ * @b: 2nd input
  *
  * Return: result of the sum
  */
 
 int mul(int a, int b){
-    int sum;
-    sum = a * b ;
-    return (sum);
+int sum;
+sum = a * b ;
+return (sum);
 }
