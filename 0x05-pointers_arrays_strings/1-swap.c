@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void swap_int()- swaps 2 int
+ * swap_int()- swaps 2 int
  * @a: first parameter for thr func
  * @b: second parameter for thr func
  * Return: Always 0 (Success)
