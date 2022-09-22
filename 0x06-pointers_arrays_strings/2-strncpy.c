@@ -1,8 +1,8 @@
 /**
  * _strncpy - A function that copies a string.
  *
- * @dest: pointer to destination input 
- * @src: pointer to source input 
+ * @dest: pointer to destination input
+ * @src: pointer to source input
  * @n: bytes of @src
  *
  * Return: @dest
@@ -15,6 +15,8 @@ int i;
 for (i = 0; i < n && src[i] != '\0'; i++)
 dest[i] = src[i];
 for (; n > i; i++)
+{
 dest[i] = '\0';
+}
 return (dest);
 }
