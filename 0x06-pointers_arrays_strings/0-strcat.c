@@ -16,9 +16,6 @@ int d , s;
 for (d = 0 ; dest[d] ; d++);
 for (s = 0 ; dest[s] ; s++)
 /* after we determine the length of both strings we can append the strings and to overwrite the null byte lets iterate dest*/
-{
-dest[d] = src[s];
-d++;
-}
+dest[d++] = src[s];
 return (dest);
 }
