@@ -5,43 +5,18 @@
 
 void print_number(int n)
 {
-    int power;
-    int neg;
-    int hold;
 
-    neg = 0;
-    power = 1;
-    hold = n;
-    if (n < 0)
+    if (n / 10 != 0)
     {
-        _putchar('-');
-        neg = 1;
+        putchar(n % 10);
+        print_number((n - n % 10) / 10);
     }
 
-    while (hold > 9 )
-    {
-        power *= 10;
-        hold /= 10;
-    }
+    if (n == 0)
+        putchar('0');
 
-    while (power > 0)
-    {
-        if (power > 9)
-        {
-            if (!neg)
-                _putchar((n / power % 10) + '0');
-            else
-                _putchar((n / power % 10) * -1 + '0');
+    if (n / 10)
+        print_number(n / 10);
 
-            power /= 10;
-        }
-        if (power == 1)
-        {
-            if (neg)
-                _putchar((n % 10) * -1 + '0');
-            else
-                _putchar(n % 10 + '0');
-            power = 0;
-        }
-    }
+    putchar(n % 10 + '0');
 }
