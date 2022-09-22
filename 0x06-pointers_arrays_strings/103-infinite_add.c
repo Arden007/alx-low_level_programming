@@ -24,7 +24,7 @@ bg = c2;
 if (size_r <= bg + 1)
 return (0);
 r[bg + 1] = '\0';
-c1--, c2--, size_r--;
+c1--,c2--,size_r--;
 dr1 = *(n1 + c1) - 48, dr2 = *(n2 + c2) - 48;
 while (bg >= 0)
 {
@@ -38,14 +38,14 @@ if (op > 0)
 else
 *(r + bg) = '0';
 if (c1 > 0)
-c1--, dr1 = *(n1 + c1) - 48;
+c1--,dr1 = *(n1 + c1) - 48;
 else
 dr1 = 0;
 if (c2 > 0)
-c2--, dr2 = *(n2 + c2) - 48;
+c2--,dr2 = *(n2 + c2) - 48;
 else
 dr2 = 0;
-bg--, size_r--;
+bg--,size_r--;
 }
 if (*(r) == '0')
 return (r + 1);
