@@ -3,21 +3,20 @@
  *             lowercase letters of a string
  *             to uppercase.
  *
- * @s : pointer to input char
+ * @c : pointer to input char
  *
- * Return: @s
+ * Return: @c
  */
 
 char *string_toupper(char *c)
 {
-int i;
+int i = 0;
 
-for (i = 0; c[i] != '\0'; i++)
+while (c[i] != '\0')
 {
 if (c[i] >= 97 && c[i] <= 122)
-{
-c[i] -= 32;
-}
+c[i] = c[i] - 32;
+i++;
 }
 return (c);
 }
