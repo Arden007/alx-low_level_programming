@@ -12,15 +12,13 @@
 char *_strcat(char *dest, char *src)
 {
 int d , s;
-/* first we need to determine the length of the string without null character('\0') */
-for (d = 0 ; dest[d] != '\0' ; d++);
-for (s = 0 ; dest[s] != '\0' ;)
-/* after we determine the length of both strings we can append the strings*/
+/* first we need to determine the length of the string */
+for (d = 0 ; dest[d] ; d++);
+for (s = 0 ; dest[s] ; s++)
+/* after we determine the length of both strings we can append the strings and to overwrite the null byte lets iterate dest*/
 {
 dest[d] = src[s];
 d++;
 }
-/* after we append the string we set the null character equal to the destination*/
-dest[d] = '\0';
 return (dest);
 }
