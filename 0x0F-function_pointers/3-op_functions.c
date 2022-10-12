@@ -8,7 +8,6 @@ int op_add(int a, int b)
 {
 return (a + b);
 }
-
 /**
  * op_sub - a function that returns the subtract of a and b.
  * @a: an input integer
@@ -19,7 +18,6 @@ int op_sub(int a, int b)
 {
 return (a - b);
 }
-
 /**
  * op_mul - a function that returns the multiply of a and b.
  * @a: an input integer
@@ -30,19 +28,16 @@ int op_mul(int a, int b)
 {
 return (a * b);
 }
-
 /**
  * op_div - a function that returns the divide of a and b.
  * @a: an input integer
  * @b: an input integer
  * Return: The result to divide a / b.
  *  */
-
 int op_div(int a, int b)
 {
 return (a / b);
 }
-
 /**
  * op_mod - a function that returns the module of a and b.
  * @a: an input integer
