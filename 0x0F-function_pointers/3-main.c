@@ -10,6 +10,7 @@
  *
  * Return: Always 0.
  */
+
 int main(int argc, char *argv[])
 {
         int (*func)(int, int), result, num1, num2;
