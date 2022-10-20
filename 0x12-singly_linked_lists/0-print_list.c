@@ -4,7 +4,6 @@
  * @h: the structure
  * Return: structure
  */
-
 size_t print_list(const list_t *h)
 {
 unsigned int i;
