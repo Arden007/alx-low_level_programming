@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
  * show_first - executes before the main function
- *
+ *@first- prints from init by the loader before the main
+ 
  * Return: nothing
  */
 
