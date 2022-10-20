@@ -1,11 +1,11 @@
 #include "lists.h"
-
 /**
  * add_node_end - at new node to the end of a linked list
  * @head: a double pointer to the head of a linked list
  * @str: the string to be copied to str member of the linked list
  * Return: a pointer to the newly created node
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 char *dup_str;
