@@ -4,7 +4,6 @@
  * @head: Head node.
  * Return: result
  */
-
 int pop_listint(listint_t **head)
 {
 listint_t *tempNode;
