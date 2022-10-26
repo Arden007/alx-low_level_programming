@@ -14,7 +14,6 @@ if (head == NULL)
 {
 return (NULL);
 }
-
 for (i = 0; i < index; i++)
 {
 head = head->next;
