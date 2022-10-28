@@ -19,6 +19,5 @@ while (xor > 0)
 bits = bits + (xor&1);
 xor = xor >> 1;
 }
-
 return (bits);
 }
