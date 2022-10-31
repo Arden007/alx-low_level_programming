@@ -5,7 +5,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <elf.h>
-
 /**
  * print_addr - prints address
  * @ptr: magic.
