@@ -47,6 +47,5 @@ head = head->next;
 i++;
 }
 }
-
 return (new);
 }
